@@ -1,0 +1,33 @@
+{
+  "name": "relaymap",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "start": "next start",
+    "test": "tsx --test src/lib/mapping.test.ts"
+  },
+  "dependencies": {
+    "@duckdb/duckdb-wasm": "latest",
+    "@langchain/core": "latest",
+    "@langchain/langgraph": "latest",
+    "@langchain/langgraph-checkpoint-mongodb": "latest",
+    "lucide-react": "latest",
+    "mongodb": "^6.20.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  },
+  "engines": {
+    "node": ">=20.18"
+  }
+}
